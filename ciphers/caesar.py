@@ -1,3 +1,10 @@
+''' 
+Date: 08/03/2026.
+Work Done today: 
+     1. Encrypted and decrypted text by shifting each letter by a fixed number. 
+     2. shift=3 means, A shifts to D, B to E, C to F, ...
+'''
+
 def encrypt(plaintext:str,shift:int)->str:
     shift=shift%26
     result=[]
@@ -44,3 +51,4 @@ if __name__ == "__main__":
     print("\n"+"="*50)
     print("ALL TESTS PASSED" if all_passed else "SOME TESTS FAILED")
     print("="*50)
+
