@@ -1,3 +1,10 @@
+''' 
+Date: 10/03/2026.
+Work Done today: 
+     1. Letters are NOT changed — they are REARRANGED.
+     2. Write plaintext into a grid row by row AND THEN read it back column by column to get ciphertext.
+'''
+
 import math
 
 
@@ -91,3 +98,4 @@ if __name__ == "__main__":
     print("\n"+"="*55)
     print("ALL TESTS PASSED" if all_passed else "SOME TESTS FAILED")
     print("="*55)
+
