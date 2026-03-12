@@ -1,3 +1,9 @@
+""" 
+Date: 11/03/2026. 
+Work Done today: 
+		1. Making a cracker for Caesar Cipher
+"""
+
 import sys
 import os
 sys.path.insert(0,os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -85,3 +91,4 @@ if __name__=="__main__":
 	print("\n\nVERBOSE MODE DEMO (shows all 26 attempts):")
 	sample=encrypt("Secret message here",11)
 	crack(sample,verbose=True)
+
