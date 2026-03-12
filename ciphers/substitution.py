@@ -1,3 +1,10 @@
+''' 
+Date: 09/03/2026.
+Work Done today: 
+     1. Each letter in the alphabet is replaced by a different letter according to a key.
+     2. A maps to 0, B maps to 1, C maps to 2, ...
+'''
+
 import random
 import string
 
@@ -92,3 +99,4 @@ if __name__ == "__main__":
     print("\n"+ "="*50)
     print("ALL TESTS PASSED" if all_passed else "SOME TESTS FAILED")
     print("="*50)
+
